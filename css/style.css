@@ -155,4 +155,35 @@ h1,h2,h3,h4,h5,h6{
     color: #f6ae48;
     transition: all .2s linear;
 }
+.option__inner:hover,
+option__text,
+ption__title{
+    color: white;
+    transition: color 0ms linear;
+}
+.option__icon{
+    color: white;
+    margin-top: 24px;
+}
+.option__div{
+    justify-content: space-between;
+}
+/*Kredo*/
+.kredo{
+    margin-top: 250px;
+    height: 570px;
+    background: #787a99 url("../img/kredo/bg.jpg") no-repeat center;
+    background-size: cover;
 
+}
+.kredo__title{
+    font-family: 'Exo2',sans-serif;
+    font-size: 50px;
+    color: white;
+    padding-top: 130px;
+}
+.kredo__text{
+    color: white;
+    margin-top: 70px;
+    font-size: 24px;
+}
