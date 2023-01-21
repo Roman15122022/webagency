@@ -98,5 +98,61 @@ h1,h2,h3,h4,h5,h6{
 /*Studio
 -----------------------------*/
 .studio{
+    margin-top: 130px;
     background: url("../img/studio/bg.jpg");
+    height: 248px;
 }
+.studio__st{
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 85px;
+}
+.studio__text{
+    font-size: 18px;
+    padding-top: 70px;
+}
+/*Options
+----------------------------*/
+.option{
+    margin-top: 150px;
+
+}
+.option__inner{
+    padding: 10px 15px;
+}
+.option__title{
+    font-size: 20px;
+    font-weight:800;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.option__text{
+    font-size: 15px;
+}
+.option__price{
+    border: 2px solid white;
+    opacity: 0;
+    color: white;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 1px;
+
+}
+.option__inner:hover{
+    background-color: #f6ae48;
+    transition: all .2s linear;
+
+}
+.option__inner:hover,
+.option__price{
+    opacity: 1;
+    transition: all .2s linear;
+}
+.option__price:hover{
+    background-color: white;
+    color: #f6ae48;
+    transition: all .2s linear;
+}
+
