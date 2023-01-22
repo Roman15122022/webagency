@@ -159,7 +159,7 @@ h1,h2,h3,h4,h5,h6{
 option__text,
 ption__title{
     color: white;
-    transition: color 0ms linear;
+    transition: color .2s linear;
 }
 .option__icon{
     color: white;
@@ -186,4 +186,113 @@ ption__title{
     color: white;
     margin-top: 70px;
     font-size: 24px;
+}
+.kredo__img{
+    position: absolute;
+    top: 522px;
+    z-index: 1;
+}
+.kredo__txt{
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    top: 23%;
+    left: 26%;
+    color: white;
+    z-index: 2;
+}
+/*Prices
+-----------------------------------*/
+.prices{
+    margin-top: 200px;
+}
+.prices__title span{
+    font-size: 0;
+}
+.prices__img{
+    position: absolute;
+    z-index: 5;
+
+}
+.prices__content{
+    position: absolute;
+    z-index: 6;
+    top: 80px;
+    left: 10%;
+}
+.prices__title{
+    color: white;
+    font-size: 50px;
+    line-height: 0.9;
+    font-weight: 600;
+}
+
+
+.prices__title:after{
+    margin-top: 20px;
+    content: '';
+    height: 1px;
+    width: 260px;
+    background-color: white;
+    display: block;
+}
+
+
+.price__price{
+    color: white;
+    font-size: 24px;
+    border: 3px solid #00b9e7;
+    width: 200px;
+    height: 55px;
+    margin-top: 50px;
+}
+.price__price2{
+    color: white;
+    font-size: 24px;
+    border: 3px solid #ffcb00;
+    width: 200px;
+    height: 55px;
+    margin-top: 50px;
+}
+.price__price3{
+    color: white;
+    font-size: 24px;
+    border: 3px solid #66bf0d;
+    width: 200px;
+    height: 55px;
+    margin-top: 50px;
+}
+
+.price__icon{
+    color: white;
+    margin-top: 47px;
+    font-size: 40px;
+    margin-left: 33px;
+}
+.price__icon2{
+    color: white;
+    margin-top: 47px;
+    font-size: 40px;
+    margin-left: 33px;
+}
+.price__icon3{
+    color: white;
+    margin-top: 47px;
+    font-size: 40px;
+    margin-left: 33px;
+}
+.position-relative:hover
+.price__icon{
+    color: #00b9e7;
+    transition: color .2s linear;
+}
+.position-relative:hover
+.price__icon2{
+    color: #ffcb00;
+    transition: color .2s linear;
+}
+.position-relative:hover
+.price__icon3{
+    color: #66bf0d;
+    transition: color .2s linear;
 }
