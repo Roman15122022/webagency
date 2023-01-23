@@ -296,3 +296,53 @@ ption__title{
     color: #66bf0d;
     transition: color .2s linear;
 }
+
+/*first
+------------------------------------*/
+.first{
+    margin-top: 450px;
+}
+.first__text1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #dedede;
+}
+.first__text2{
+    font-size: 34px;
+    line-height: 2;
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.first__text3{
+    font-size: 24px;
+    line-height: 2;
+}
+.first__img{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+/*Our__title
+-------------------------*/
+.our_project{
+    background-color: #303263;
+}
+.our_text1{
+    font-size: 96px;
+    font-weight: 800;
+    color: #8a8ba1;
+}
+.our_text2{
+    font-size: 34px;
+    line-height: 2;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 41%;
+}
+.our__img{
+    width: 100%;
+}
