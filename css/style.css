@@ -327,6 +327,9 @@ ption__title{
 /*Our__title
 -------------------------*/
 .our_project{
+
+}
+.bg{
     background-color: #303263;
 }
 .our_text1{
@@ -344,5 +347,88 @@ ption__title{
     left: 41%;
 }
 .our__img{
-    width: 100%;
+    width:100%;
+    height: 100%;
+}
+.btn-roma{
+    font-weight: 800!important;
+    background-color: #6a6b8e!important;
+    color: white!important;
+    padding: 10px 20px!important;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+
+}
+/*Adaptive
+------------------------------------------*/
+.adaptive{
+    margin-top: 150px;
+}
+
+.adaptive__text1{
+    font-size: 77px;
+    font-weight: 800;
+    color: #dedede;
+}
+.adaptive__text2{
+    font-size: 36px;
+    font-weight: 800;
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+}
+.adaptive__text3{
+    font-size: 24px;
+    line-height: 2;
+    margin-left: 40px;
+}
+.adaptive__img{
+    position: absolute;
+    top: 0;
+    left: 75%;
+}
+/*trade
+---------------------------------*/
+.trade{
+    margin-top: 170px;
+    background: url("../img/trade/bg.jpg")
+    no-repeat center;
+    height: 680px;
+    background-size: cover;
+}
+.trade__title{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 60px;
+
+}
+.trade__text{
+    padding-left: 25px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.trade__text2{
+    font-size: 18px;
+    line-height: 1.8;
+    color: white;
+    padding-left: 170px;
+
+}
+.trade__content{
+    display: flex;
+    justify-content: center;
+}
+.trade__img{
+    position: absolute;
+}
+.btn-roma2{
+    padding: 10px 15px!important;
+    color: white!important;
+    background-color: #f6ae48!important;
+    font-weight: 800!important;
+    font-size: 20px!important;
+    border-radius: 15px!important; ;
 }
