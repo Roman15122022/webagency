@@ -352,6 +352,7 @@ ption__title{
 }
 .btn-roma{
     font-weight: 800!important;
+    font-size: 20px!important;
     background-color: #6a6b8e!important;
     color: white!important;
     padding: 10px 20px!important;
@@ -431,4 +432,14 @@ ption__title{
     font-weight: 800!important;
     font-size: 20px!important;
     border-radius: 15px!important; ;
+}
+/*careful
+---------------------------------------*/
+.careful{
+    margin-top: 166px;
+}
+.careful__img{
+    position: absolute;
+    top: -5%;
+    right: 15%;
 }
